@@ -1,0 +1,22 @@
+/* str本地代码*/
+
+/*
+本地编辑
+*/
+
+#include <stdlib.h>
+
+char* StrCpy(char* src)
+{
+    int l=0;
+    while(src[l])
+    {
+        ++l;
+    }
+    char *result = (char*)malloc(l+1);
+    for(int i=0;i<=l;++i)
+    {
+        result[i] = src[i];
+    }
+    return result;
+}
