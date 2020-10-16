@@ -1,5 +1,7 @@
+/* str本地代码*/
+
 /*
-远程edit
+本地编辑
 */
 
 #include <stdlib.h>
