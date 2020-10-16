@@ -1,3 +1,7 @@
+/*
+远程edit
+*/
+
 #include <stdlib.h>
 
 char* StrCpy(char* src)
